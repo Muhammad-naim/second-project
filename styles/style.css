@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-primary {
+    background-color: #CC0019;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px 30px;
+    color: #fff;
+    background-color: #d84646;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-secondary:active {
+    box-shadow: 2px 2px 5px #fc894d
+}
+
+.header-container {
+    height: 100%;
+    background: url(../images/donation2.jpg);
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+nav .logo{
+
+    font-weight: 900;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    font-weight: 600;
+    margin-left: 40px;
+    list-style: none;
+}
+
+/* Banner style */
+.banner-container {
+    color: #fff;
+    backdrop-filter: blur(2px);
+    text-align: center;
+    padding: 200px 280px 140px 280px;
+}
+
+.bannner-heading {
+    text-shadow: 0px 0px 2px #000;
+    font-size: 55px;
+    padding-bottom: 25px;
+}
+
+.banner-description {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 0px 2px #000;
+    padding-bottom: 20px;
+}
+
+/* ----------------blog section style---------------- */
+
+.blog-container {
+    padding: 100px 300px 0px;
+    text-align: center;
+}
+
+.blog-title {
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.blog-description {
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.selectable-btn-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectable-btn {
+    color: #FF5959;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FFEEEE;
+    border: 0;
+    padding: 20px 30px;
+}
+
+.selectable-btn:active {
+    background-color: #ead3d3;
+}
+
+.amount-container {
+    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.amount {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1 solid #ead3d3;
+    outline: none;
+
+}
+/* removing arrow from number field */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* for Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+    border-top: 0;
+
+}
+/* ----------------card design---------------- */
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 50px 100px;
+}
+.card-1, .card-2, .card-3{
+    box-shadow: 5px 5px 5px 1px rgb(165, 137, 137);
+    width: 300px;
+    height: auto;
+    padding: 30px;
+}
+.card-1{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+.card-2{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+.card-3{
+    background-color: #FFF4D6;
+    border-radius: 5px;
+}
+.card img{
+    padding: 10px opx;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+.card-description{
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+}
+
+/* ----------------article design---------------- */
+.article-container{
+    padding: 20px 100px;
+}
+.article{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 500px;
+}
+.content .blog-description{
+    padding-bottom: 50px;
+}
+
+.donation-image{
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.mail-container{
+    padding: 100px 150px 30px;
+   
+}
+.mail-submission{
+    padding-top: 100px;
+    height: 200px;
+    background-color: #FFF4D6;
+    text-align: center;
+}
+.mail-submission input[type="email"]{
+    padding: 17px 30px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+/* foooter design */
+
+.footer-container{
+    margin-top: 50px;
+    background-color: #0b0d17;
+    text-align: center;
+}
+
+.footer-content{
+    
+    font-size: 36px;
+    color: #FF5959;
+    padding: 50px 0px;
+}
+.footer-title{
+    font-family: 'Lobster', cursive;
+}
